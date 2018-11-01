@@ -1,4 +1,4 @@
-# Pixela API Document
+Pixela API Document
 ============
 
 [![](https://pixe.la/assets/images/other_images/pixela-logo.png)](https://pixe.la)
