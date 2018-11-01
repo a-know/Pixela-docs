@@ -6,3 +6,5 @@
 components/
 
 _site/
+
+vendor/
