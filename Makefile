@@ -19,4 +19,7 @@ components: component.json
 clean:
 	rm -fr build components $(TEMPLATES)
 
+serve:
+	bundle exec jekyll serve --watch
+
 .PHONY: clean
