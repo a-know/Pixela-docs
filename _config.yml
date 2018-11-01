@@ -1,6 +1,6 @@
 ---
 exclude: ['README.markdown','vendor']
 permalink: ':title'
-pygments: true
+highlighter: rouge
 safe: false
 title: 'Carte'

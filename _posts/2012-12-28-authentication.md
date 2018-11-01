@@ -1,5 +1,5 @@
 ---
-path: '/login'
+resturi: '/login'
 title: 'Authenticate'
 
 layout: nil

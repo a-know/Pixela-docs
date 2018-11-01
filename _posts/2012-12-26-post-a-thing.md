@@ -1,6 +1,6 @@
 ---
 category: Stuff
-path: '/stuff'
+resturi: '/stuff'
 title: 'Post a thing'
 type: 'POST'
 
