@@ -3,4 +3,4 @@ exclude: ['README.markdown','vendor']
 permalink: ':title'
 highlighter: rouge
 safe: false
-title: 'Carte'
+title: 'Pixela API Document'
