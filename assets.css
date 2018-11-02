@@ -479,6 +479,10 @@ code {
   overflow: scroll;
 }
 
+code::-webkit-scrollbar {
+  display: none;
+}
+
 h3 {
   margin: 20px 0 20px;
 }
