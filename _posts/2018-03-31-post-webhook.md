@@ -27,4 +27,4 @@ Create a new Webhook.
 ### Example
 
 ```$ curl -X POST https://pixe.la/v1/users/a-know/webhooks -H 'X-USER-TOKEN:thisissecret' -d '{"graphID":"test-graph","type":"increment"}'
-{"hashString":"<WebhookHashString>","message":"Success.","isSuccess":true}```
+{"webhookHash":"<WebhookHashString>","message":"Success.","isSuccess":true}```
