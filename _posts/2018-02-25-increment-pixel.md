@@ -1,6 +1,6 @@
 ---
 category: Pixel
-resturi: '/v1/users/&lt;username&gt;/graphs/&lt;graphID&gt;/&lt;yyyyMMdd&gt;/increment'
+resturi: '/v1/users/&lt;username&gt;/graphs/&lt;graphID&gt;/increment'
 title: 'Increment a Pixel'
 type: 'PUT'
 

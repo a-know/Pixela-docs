@@ -1,6 +1,6 @@
 ---
 category: Pixel
-resturi: '/v1/users/&lt;username&gt;/graphs/&lt;graphID&gt;/&lt;yyyyMMdd&gt;/decrement'
+resturi: '/v1/users/&lt;username&gt;/graphs/&lt;graphID&gt;/decrement'
 title: 'Decrement a Pixel'
 type: 'PUT'
 
