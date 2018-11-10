@@ -7,7 +7,8 @@ type: 'POST'
 layout: nil
 ---
 
-Invoke the webhook registered in advance.
+Invoke the webhook registered in advance.<br>
+It is used "timezone" setting as post date if Graph's "timezone" is specified, if not specified, calculates it in "UTC".
 
 ### Request Header
 
