@@ -7,7 +7,7 @@ type: 'PUT'
 layout: nil
 ---
 
-Increment quantity "Pixel" of the day (it is used "timezone" setting if Graph's "timezone" is specified, if not specified, calculates it in "UTC").<br>If the graph type is int then -1 added, and for float then -0.01 added.
+Decrement quantity "Pixel" of the day (it is used "timezone" setting if Graph's "timezone" is specified, if not specified, calculates it in "UTC").<br>If the graph type is int then -1 added, and for float then -0.01 added.
 
 ### Request Header
 
