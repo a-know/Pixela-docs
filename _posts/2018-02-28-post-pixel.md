@@ -21,7 +21,7 @@ It records the quantity of the specified date as a "Pixel".
 |---|---|---|
 |date|string|**[required]** The date on which the quantity is to be recorded. It is specified in yyyyMMdd format.|
 |quantity|string|**[required]** Specify the quantity to be registered on the specified date.<br>Validation rule: int^\-?[0-9]+ float^\-?[0-9]+\.[0-9]+|
-|optionalData|string|[optional] Additional information other than quantity. It is specified as JSON string.<br>The amount of this data must be less than 100 KB.|
+|optionalData|string|[optional] Additional information other than quantity. It is specified as JSON string.<br>The amount of this data must be less than 10 KB.|
 
 ### Example
 
