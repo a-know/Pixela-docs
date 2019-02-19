@@ -7,8 +7,8 @@ type: 'GET'
 layout: nil
 ---
 
-Get a Date list of Pixel registered in the graph specified by `graphID`.<br>
-You can specify a period with `from` and` to` parameters.<br>
+Get a Date list of Pixel registered in the graph specified by graphID.<br>
+You can specify a period with from and to parameters.<br>
 - If you do not specify both `from` and` to`;
     - You will get a list of 365 days ago from today.
 - If you specify `from` only;
