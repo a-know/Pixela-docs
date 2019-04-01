@@ -36,4 +36,4 @@ You can specify a period with from and to parameters.<br>
 ### Example
 
 ```$ curl -X GET https://pixe.la/v1/users/a-know/graphs/test-graph/pixels?from=20180101&to=20181231 -H 'X-USER-TOKEN:thisissecret'
-{"pixels":["20180101","20180331","20180402","20180505","20181204"}]}```
+{"pixels":["20180101","20180331","20180402","20180505","20181204"]}```
