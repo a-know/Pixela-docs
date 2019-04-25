@@ -1,6 +1,0 @@
----
-exclude: ['README.markdown','vendor']
-permalink: ':title'
-highlighter: rouge
-safe: false
-title: 'Pixela API Document'
