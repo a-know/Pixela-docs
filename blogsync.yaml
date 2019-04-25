@@ -1,0 +1,3 @@
+pixela-docs.hatenablog.com:
+  omit_domain: true
+  local_root: .
