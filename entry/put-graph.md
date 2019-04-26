@@ -1,7 +1,7 @@
 ---
 Title: PUT - /v1/users/<username>/graphs/<graphID>
 Date: 2019-04-24T06:58:45+09:00
-URL: https://pixela-docs.hatenablog.com/entry/put-graph
+URL: https://docs.pixe.la/entry/put-graph
 EditURL: https://blog.hatena.ne.jp/a-know/pixela-docs.hatenablog.com/atom/entry/17680117127076484572
 ---
 

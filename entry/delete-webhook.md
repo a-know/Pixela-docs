@@ -1,7 +1,7 @@
 ---
 Title: DELETE - /v1/users/<username>/webhooks/<webhookHash>
 Date: 2019-04-24T16:41:45+09:00
-URL: https://pixela-docs.hatenablog.com/entry/delete-webhook
+URL: https://docs.pixe.la/entry/delete-webhook
 EditURL: https://blog.hatena.ne.jp/a-know/pixela-docs.hatenablog.com/atom/entry/17680117127076651657
 ---
 

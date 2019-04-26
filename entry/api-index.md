@@ -1,7 +1,7 @@
 ---
 Title: API Index
 Date: 2019-04-23T19:08:24+09:00
-URL: https://pixela-docs.hatenablog.com/entry/api-index
+URL: https://docs.pixe.la/entry/api-index
 EditURL: https://blog.hatena.ne.jp/a-know/pixela-docs.hatenablog.com/atom/entry/17680117127072086112
 ---
 

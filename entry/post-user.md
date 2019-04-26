@@ -1,7 +1,7 @@
 ---
 Title: POST - /v1/users
 Date: 2019-04-23T20:19:57+09:00
-URL: https://pixela-docs.hatenablog.com/entry/post-user
+URL: https://docs.pixe.la/entry/post-user
 EditURL: https://blog.hatena.ne.jp/a-know/pixela-docs.hatenablog.com/atom/entry/17680117127076310307
 ---
 

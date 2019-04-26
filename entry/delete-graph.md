@@ -1,7 +1,7 @@
 ---
 Title: DELETE - /v1/users/<username>/graphs/<graphID>
 Date: 2019-04-24T07:00:26+09:00
-URL: https://pixela-docs.hatenablog.com/entry/delete-graph
+URL: https://docs.pixe.la/entry/delete-graph
 EditURL: https://blog.hatena.ne.jp/a-know/pixela-docs.hatenablog.com/atom/entry/17680117127076485203
 ---
 

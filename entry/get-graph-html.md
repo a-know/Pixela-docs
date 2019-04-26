@@ -1,7 +1,7 @@
 ---
 Title: GET - /v1/users/<username>/graphs/<graphID>.html
 Date: 2019-04-24T07:03:03+09:00
-URL: https://pixela-docs.hatenablog.com/entry/get-graph-html
+URL: https://docs.pixe.la/entry/get-graph-html
 EditURL: https://blog.hatena.ne.jp/a-know/pixela-docs.hatenablog.com/atom/entry/17680117127076486017
 ---
 

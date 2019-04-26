@@ -1,7 +1,7 @@
 ---
 Title: PUT - /v1/users/<username>/graphs/<graphID>/increment
 Date: 2019-04-24T16:31:28+09:00
-URL: https://pixela-docs.hatenablog.com/entry/increment-pixel
+URL: https://docs.pixe.la/entry/increment-pixel
 EditURL: https://blog.hatena.ne.jp/a-know/pixela-docs.hatenablog.com/atom/entry/17680117127076648185
 ---
 
