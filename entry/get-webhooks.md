@@ -1,7 +1,7 @@
 ---
 Title: GET - /v1/users/<username>/webhooks
 Date: 2019-04-24T16:38:33+09:00
-URL: https://pixela-docs.hatenablog.com/entry/get-webhook
+URL: https://pixela-docs.hatenablog.com/entry/get-webhooks
 EditURL: https://blog.hatena.ne.jp/a-know/pixela-docs.hatenablog.com/atom/entry/17680117127076650509
 ---
 
