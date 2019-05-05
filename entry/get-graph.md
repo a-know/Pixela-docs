@@ -22,5 +22,5 @@ Get all predefined pixelation graph definitions.
 
 ```sh
 $ curl -X GET https://pixe.la/v1/users/a-know/graphs -H 'X-USER-TOKEN:thisissecret'
-{"graphs":[{"id":"test-graph","name":"graph-name","unit":"commit","type":"int","color":"shibafu","timezone":"Asia/Tokyo","purgeCacheURLs":["https://camo.githubusercontent.com/xxx/xxxx"],"selfSufficient":"increment"}]}
+{"graphs":[{"id":"test-graph","name":"graph-name","unit":"commit","type":"int","color":"shibafu","timezone":"Asia/Tokyo","purgeCacheURLs":["https://camo.githubusercontent.com/xxx/xxxx"],"selfSufficient":"increment","isSecret":false}]}
 ```
