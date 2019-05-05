@@ -23,11 +23,11 @@ Updates the authentication token for the specified user.
 |Key|Type|Description|
 |---|---|---|
 |newToken|string|**[required]** It is a new authentication token. The token string is hashed and saved.<br>Validation rule: [ -~]{8,128}|
-
+|thanksCode|string|[optional] Set `thanks-code` . If it is a valid `thanks-code`, some limited features will be available. For details, please check [How to support Pixela by Patreon ／ Use Limited Features](https://github.com/a-know/Pixela/wiki/How-to-support-Pixela-by-Patreon-%EF%BC%8F-Use-Limited-Features).|
 
 ### Example
 
 ```sh
-$ curl -X PUT https://pixe.la/v1/users/a-know -H 'X-USER-TOKEN:thisissecret' -d '{"newToken":"thisissecret"}'
+$ curl -X PUT https://pixe.la/v1/users/a-know -H 'X-USER-TOKEN:thisissecret' -d '{"newToken":"thisissecret","thanksCode":"ThisIsThanksCode"}'
 {"message":"Success.","isSuccess":true}
 ```
