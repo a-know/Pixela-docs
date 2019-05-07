@@ -19,11 +19,12 @@ Create a new Pixela user.
 |username|string|**[required]** User name for this service.<br>Validation rule: [a-z][a-z0-9-]{1,32}|
 |agreeTermsOfService|string|**[required]** Specify yes or no whether you agree to the terms of service.<br>Please see: [Terms of service - Japanese version](https://github.com/a-know/Pixela/wiki/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84%EF%BC%88Terms-of-Service-Japanese-Version%EF%BC%89) / [Terms of service - English version](https://github.com/a-know/Pixela/wiki/Terms-of-Service)|
 |notMinor|string|**[required]** Specify yes or no as to whether you are not a minor or if you are a minor and you have the parental consent of using this service.|
+|thanksCode|string|[optional] Set `thanks-code` . If it is a valid `thanks-code`, some limited features will be available. For details, please check [How to support Pixela by Patreon ／ Use Limited Features](https://github.com/a-know/Pixela/wiki/How-to-support-Pixela-by-Patreon-%EF%BC%8F-Use-Limited-Features).|
 
 
 ### Example
 
 ```sh
-$ curl -X POST https://pixe.la/v1/users -d '{"token":"thisissecret", "username":"a-know", "agreeTermsOfService":"yes", "notMinor":"yes"}'
+$ curl -X POST https://pixe.la/v1/users -d '{"token":"thisissecret", "username":"a-know", "agreeTermsOfService":"yes", "notMinor":"yes", "thanksCode":"ThisIsThanksCode"}'
 {"message":"Success.","isSuccess":true}
 ```

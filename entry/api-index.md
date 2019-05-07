@@ -37,6 +37,9 @@ EditURL: https://blog.hatena.ne.jp/a-know/pixela-docs.hatenablog.com/atom/entry/
 #### [<span class="badge badge-get">GET</span> `/v1/users/<username>/graphs/<graphID>.html` - View a graph detail](https://pixela-docs.hatenablog.com/entry/get-graph-html)
 
 
+#### [<span class="badge badge-get">GET</span> `/v1/users/<username>/graphs.html` - View graph list by detail](https://pixela-docs.hatenablog.com/entry/get-graph-list-html)
+
+
 #### [<span class="badge badge-get">GET</span> `/v1/users/<username>/graphs/<graphID>/pixels` - Get graph pixels list](https://pixela-docs.hatenablog.com/entry/get-graph-pixels)
 
 
