@@ -18,6 +18,10 @@ Based on the registered information, express the graph in SVG format diagram.
 |date|string|[optional] If you specify it in yyyyMMdd format, will create a pixelation graph dating back to the past with that day as the start date.<br>If this parameter is not specified, the current date and time will be the start date.<br>(it is used `timezone` setting if Graph's `timezone` is specified, if not specified, calculates it in `UTC`)|
 |mode|string|[optional] Specify the graph display mode.<br>Supported modes are `short` (for displaying only about 90 days) and `line` .|
 
+### Specification
+- If `publishOptionalData` property of Graph is `true`, each pixel's `optionalData` will be added to the generated SVG data as a `data-optional` attribute.
+    - On the other hand, be careful because the `data-tippy-content` attribute is removed.
+    - This feature is limited for `Pixela Supporter`. About `Pixela Supporter` , please check [How to support Pixela by Patreon ／ Use Limited Features] .
 
 ### Example
 
