@@ -29,10 +29,11 @@ Update predefined pixelation graph definitions.<br>The items that can be updated
 |purgeCacheURLs|array[string]|[optional] This is an advanced option.<br>Specify the URL to send the purge request to purge the cache when the graph is updated.<br>For example, in GitHub, since all images referenced from GitHub are cached, it is necessary to purge the cache every time the Pixeleation graph is changed.<br>Even with the same Pixelation graph, different cache URLs are generated when referring from multiple places, you can specify up to 5 URLs.|
 |selfSufficient|string|[optional] If SVG graph with this field `increment` or `decrement` is referenced, Pixel of this graph itself will be incremented or decremented.<br>It is suitable when you want to record the PVs on a web page or site simultaneously.<br>The specification of increment or decrement is the same as Increment a Pixel and Decrement a Pixel with webhook.<br>If not specified, it is treated as `none` .|
 |isSecret|bool|[optional] Graphs with this property's value `true` are not displayed on the [graph list page](https://docs.pixe.la/entry/get-graph-list-html) and can be kept secret.<br>However, this feature is a limited to supporters. For details, please check [How to support Pixela by Patreon ／ Use Limited Features](https://github.com/a-know/Pixela/wiki/How-to-support-Pixela-by-Patreon-%EF%BC%8F-Use-Limited-Features).|
+|publishOptionalData|bool|[optional] If this property is `true`, each pixel's `optionalData` will be added to the generated SVG data as a `data-optional` attribute.<br>This feature is limited for `Pixela Supporter`. About `Pixela Supporter` , please check [How to support Pixela by Patreon ／ Use Limited Features](https://github.com/a-know/Pixela/wiki/How-to-support-Pixela-by-Patreon-%EF%BC%8F-Use-Limited-Features).|
 
 ### Example
 
 ```sh
-$ curl -X PUT https://pixe.la/v1/users/a-know/graphs/test-graph -H 'X-USER-TOKEN:thisissecret' -d '{"name":"graph-name","unit":"commit","color":"shibafu","timezone":"Asia/Tokyo","purgeCacheURLs":["https://camo.githubusercontent.com/xxx/xxxx"]}'
+$ curl -X PUT https://pixe.la/v1/users/a-know/graphs/test-graph -H 'X-USER-TOKEN:thisissecret' -d '{"name":"graph-name","unit":"commit","color":"shibafu","timezone":"Asia/Tokyo","purgeCacheURLs":["https://camo.githubusercontent.com/xxx/xxxx"],"publishOptionalData":true}'
 {"message":"Success.","isSuccess":true}
 ```
