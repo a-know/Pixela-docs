@@ -11,8 +11,19 @@ Displays the details of the graph in html format.
 ### HTTP Method , API endpoint
 <span class="badge badge-get">GET</span> `/v1/users/<username>/graphs/<graphID>.html`
 
+### Query Parameter
+
+|Key|type|Description|
+|---|---|---|
+|mode|string|[optional] You can get a very simple html response by specifying `simple` or `simple-short` with this parameter.<br>Useful in combination with iframe tags.|
+
 ### Example
 
 ```sh
 $ open https://pixe.la/v1/users/a-know/graphs/test-graph.html
+```
+
+
+```sh
+$ open https://pixe.la/v1/users/a-know/graphs/test-graph.html?mode=simple
 ```
