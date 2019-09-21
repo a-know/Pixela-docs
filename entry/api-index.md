@@ -18,6 +18,22 @@ EditURL: https://blog.hatena.ne.jp/a-know/pixela-docs.hatenablog.com/atom/entry/
 <hr>
 
 
+## Channel
+#### [<span class="badge badge-post">POST</span> `/v1/users/<username>/channels` - Create a channel settings](https://docs.pixe.la/entry/post-channel)
+
+
+#### [<span class="badge badge-get">GET</span> `/v1/users/<username>/channels` - Get channels](https://pixela-docs.hatenablog.com/entry/get-channels)
+
+
+#### [<span class="badge badge-put">PUT</span> `/v1/users/<username>/channels/<channelID>` - Update a channel settings](https://pixela-docs.hatenablog.com/entry/put-channel)
+
+
+#### [<span class="badge badge-delete">DELETE</span> `/v1/users/<username>/channels/<channelID>` - Delete a channel](https://pixela-docs.hatenablog.com/entry/delete-channel)
+
+
+<hr>
+
+
 ## Graph
 #### [<span class="badge badge-post">POST</span> `/v1/users/<username>/graphs` - Create a graph](https://pixela-docs.hatenablog.com/entry/post-graph)
 
@@ -66,6 +82,22 @@ EditURL: https://blog.hatena.ne.jp/a-know/pixela-docs.hatenablog.com/atom/entry/
 
 
 #### [<span class="badge badge-delete">DELETE</span> `/v1/users/<username>/graphs/<graphID>/<yyyyMMdd>` - Delete a pixel](https://pixela-docs.hatenablog.com/entry/delete-pixel)
+
+
+<hr>
+
+
+## Notification
+#### [<span class="badge badge-post">POST</span> `/v1/users/<username>/graphs/<graphID>/notifications` - Create a notification rule](https://docs.pixe.la/entry/post-notification)
+
+
+#### [<span class="badge badge-get">GET</span> `/v1/users/<username>/graphs/<graphID>/notifications` - Get notifications](https://pixela-docs.hatenablog.com/entry/get-notifications)
+
+
+#### [<span class="badge badge-put">PUT</span> `/v1/users/<username>/graphs/<graphID>/notifications/<notificationID>` - Update a notification settings](https://pixela-docs.hatenablog.com/entry/put-notification)
+
+
+#### [<span class="badge badge-delete">DELETE</span> `/v1/users/<username>/graphs/<graphID>/notifications/<notificationID>` - Delete a notification](https://pixela-docs.hatenablog.com/entry/delete-notification)
 
 
 <hr>

@@ -6,7 +6,7 @@ EditURL: https://blog.hatena.ne.jp/a-know/pixela-docs.hatenablog.com/atom/entry/
 ---
 
 ### Description
-Update predefined pixelation graph definitions.<br>The items that can be updated are limited as compared with the pixelation graph definition creation.
+Delete predefined pixelation graph definition.
 
 ### HTTP Method , API endpoint
 <span class="badge badge-delete">DELETE</span> `/v1/users/<username>/graphs/<graphID>`
